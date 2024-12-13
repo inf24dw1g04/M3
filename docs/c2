@@ -4,3 +4,97 @@
 A API para o Sistema de Gestão de Eventos fornece endpoints RESTful para gerenciar os seguintes recursos:
 
 ---
+
+### 1. **Eventos**
+- Representa os eventos disponíveis no sistema (presenciais ou online).
+- **Atributos**:
+  - `id`: Identificador único do evento.
+  - `titulo`: Nome do evento.
+  - `descricao`: Descrição do evento.
+  - `data`: Data do evento.
+  - `hora`: Hora do evento.
+  - `local`: Local onde o evento será realizado (ou link, se online).
+  - `organizadorId`: Referência ao organizador responsável.
+
+---
+
+### 2. **Participantes**
+- Representa os usuários que participam dos eventos.
+- **Atributos**:
+  - `id`: Identificador único do participante.
+  - `nome`: Nome do participante.
+  - `email`: Endereço de e-mail do participante.
+  - `status`: Status de presença no evento (confirmado/pendente).
+  - `eventoId`: Referência ao evento em que o participante está inscrito.
+
+---
+
+### 3. **Ingressos**
+- Representa os ingressos disponíveis para um evento.
+- **Atributos**:
+  - `id`: Identificador único do ingresso.
+  - `tipo`: Tipo de ingresso (normal, VIP, etc.).
+  - `preco`: Preço do ingresso.
+  - `quantidade`: Quantidade de ingressos disponíveis.
+  - `eventoId`: Referência ao evento associado.
+
+---
+
+### 4. **Organizadores**
+- Representa os organizadores responsáveis pelos eventos.
+- **Atributos**:
+  - `id`: Identificador único do organizador.
+  - `nome`: Nome do organizador.
+  - `email`: Endereço de e-mail do organizador.
+  - `telefone`: Telefone para contato.
+
+---
+
+## Relações 
+- **1:N (Um para Muitos)**:
+  - Um organizador pode gerenciar vários eventos.
+  
+- **M:N (Muitos para Muitos)**:
+  - Participantes podem se inscrever em vários eventos, e eventos podem ter vários participantes.
+
+---
+
+## Endpoints
+Cada recurso pode ser acessado através de operações CRUD utilizando os métodos HTTP:
+- **GET**: Recupera os dados do recurso.
+- **POST**: Cria um novo recurso.
+- **PUT**: Atualiza um recurso existente.
+- **DELETE**: Remove um recurso.
+
+---
+
+< [Anterior](c1.md) | [^ Início](../../../) | [Próximo >](c3.md)
+:--- | :---: | ---:
+
+
+# C2: Resources
+
+## Description
+The API for the Event Management System provides RESTful endpoints to manage the following resources:
+
+---
+
+### 1. **Events**
+- Represents the events available in the system (in-person or online).
+- **Attributes**:
+  - `id`: Unique identifier for the event.
+  - `title`: Name of the event.
+  - `description`: Description of the event.
+  - `date`: Event date.
+  - `time`: Event time.
+  - `location`: Venue for the event (or link, if online).
+  - `organizerId`: Reference to the responsible organizer.
+
+---
+
+### 2. **Participants**
+- Represents users participating in events.
+- **Attributes**:
+  - `id`: Unique identifier for the participant.
+  - `name`: Participant's name.
+  - `email`: Participant's email address.
