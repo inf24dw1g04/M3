@@ -46,7 +46,7 @@ Uma [tabela](https://www.markdownguide.org/extended-syntax/#tables) pode ser út
 * Capítulo 4: [Presentation](docs/c4.md)
 
 ## Links Importantes
-* Organização do GitHub: [inf24dw1g04](https://github.com/inf24dw1gXX)
+* Organização do GitHub: [inf24dw1g04](https://github.com/inf24dw1g04)
 * Repositório público do DockerHub: [inf24dw1g04](https://hub.docker.com/)
 
 ## Grupo 04:  
