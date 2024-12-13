@@ -1,0 +1,6 @@
+# C1: Sistema de Gestão de Eventos
+
+## Descrição
+Este projeto consiste em uma aplicação web para gerenciar eventos, participantes, ingressos e organizadores. A aplicação foi desenvolvida com uma arquitetura REST, utilizando Node.js e MySQL como tecnologias principais. É possível realizar operações CRUD, visualizar relatórios e utilizar filtros para navegação nos dados.
+
+Funcionalidades principais incluem:
