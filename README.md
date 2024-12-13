@@ -6,8 +6,8 @@ Um sistema para gerir eventos (presenciais ou online), incluindo cadastro de eve
 
 ## Organização do Repositório
 
- * `src`: Código-fonte do projeto. [src folder](src/).
- * `doc`: Documentação, incluindo relatórios detalhados. [doc folder](doc/).
+* `source`: Código-fonte do projeto. [source folder](source/).
+* `docs`: Documentação, incluindo relatórios detalhados. [docs folder](docs/).
 
 ## Galeria
 
@@ -37,13 +37,13 @@ Uma [tabela](https://www.markdownguide.org/extended-syntax/#tables) pode ser út
 
 ## Relatório
 ### Apresentação do Projeto
-* Capítulo 1: [Project presentation](doc/c1.md)
+* Capítulo 1: [Project presentation](docs/c1.md)
 ### Recursos
-* Capítulo 2: [Resources](doc/c2.md)
+* Capítulo 2: [Resources](docs/c2.md)
 ### Produto
-* Capítulo 3: [Product](doc/c3.md)
+* Capítulo 3: [Product](docs/c3.md)
 ### Apresentação
-* Capítulo 4: [Presentation](doc/c4.md)
+* Capítulo 4: [Presentation](docs/c4.md)
 
 ## Links Importantes
 * Organização do GitHub: [inf24dw1g04](https://github.com/inf24dw1gXX)
@@ -64,8 +64,8 @@ A system to manage events (both in-person and online), including registration of
 
 ## Repository Organization
 
- * `src`: Project source code. [src folder](src/).
- * `doc`: Documentation, including detailed reports. [doc folder](doc/).
+ * `src`: Project source code. [src folder](source/).
+ * `doc`: Documentation, including detailed reports. [doc folder](docs/).
 
 ## Gallery
 
@@ -96,16 +96,16 @@ A [table](https://www.markdownguide.org/extended-syntax/#tables) can be useful t
   
 ## Report
 ### Project Overview
-* Chapter 1: [Project presentation](doc/c1.md)
+* Chapter 1: [Project presentation](docs/c1.md)
 ### Resources
-* Chapter 2: [Resources](doc/c2.md)
+* Chapter 2: [Resources](docs/c2.md)
 ### Product
-* Chapter 3: [Product](doc/c3.md)
+* Chapter 3: [Product](docs/c3.md)
 ### Presentation
-* Chapter 4: [Presentation](doc/c4.md)
+* Chapter 4: [Presentation](docs/c4.md)
 
 ## Important Links
-* GitHub Organization: [inf24dw1g04](https://github.com/inf24dw1gXX)
+* GitHub Organization: [inf24dw1g04](https://github.com/inf24dw1g04)
 * Public DockerHub Repository: [inf24dw1g04](https://hub.docker.com/)
 
 ## Group 04:  
