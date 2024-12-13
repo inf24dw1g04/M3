@@ -8,7 +8,6 @@ Um sistema para gerir eventos (presenciais ou online), incluindo cadastro de eve
 
  * `src`: Código-fonte do projeto. [src folder](src/).
  * `doc`: Documentação, incluindo relatórios detalhados. [doc folder](doc/).
- * `Initial`: [OpenApi document](api/openapi.yaml)
 
 ## Galeria
 
@@ -17,11 +16,8 @@ Uma [tabela](https://www.markdownguide.org/extended-syntax/#tables) pode ser út
 
 ## Tecnologias Utilizadas
 
- * XML: [Documentação oficial](https://www.w3.org/XML/)
- * HTML5: [Documentação oficial](https://html.spec.whatwg.org/multipage/) + [CSS3](https://www.w3.org/Style/CSS/)
- * Javascript: [Documentação oficial](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
- * PHP: [Documentação oficial](https://www.php.net/)
- * Node.js: [Documentação oficial](https://nodejs.org/en/)
+ * Loopback 4: [Documentação oficial](https://loopback.io/doc/en/lb4/)
+ * React-Admin:[Documentação oficial](https://marmelab.com/react-admin/)
 
 ### OUTRAS
 
@@ -31,14 +27,13 @@ Uma [tabela](https://www.markdownguide.org/extended-syntax/#tables) pode ser út
  * Markdown: [Documentação oficial](https://www.w3schools.io/file/markdown-introduction/)
 
 ### Frameworks e Bibliotecas
-
+* Loopback 4
+* React-Admin
+* MySQL
+* Postman
 * Docker
-* Multipass
-* NodeJS
 * JQuery
-* Laravel
 * Bootstrap
-* ReactJS
 
 ## Relatório
 ### Apresentação do Projeto
@@ -71,7 +66,6 @@ A system to manage events (both in-person and online), including registration of
 
  * `src`: Project source code. [src folder](src/).
  * `doc`: Documentation, including detailed reports. [doc folder](doc/).
- * `Initial`: [OpenApi document](api/openapi.yaml).
 
 ## Gallery
 
@@ -80,11 +74,8 @@ A [table](https://www.markdownguide.org/extended-syntax/#tables) can be useful t
 
 ## Technologies Used
 
- * XML: [Official Documentation](https://www.w3.org/XML/)
- * HTML5: [Official Documentation](https://html.spec.whatwg.org/multipage/) + [CSS3](https://www.w3.org/Style/CSS/)
- * JavaScript: [Official Documentation](https://developer.mozilla.org/en-US/docs/Learn/JavaScript)
- * PHP: [Official Documentation](https://www.php.net/)
- * Node.js: [Official Documentation](https://nodejs.org/en/)
+ * Loopback 4: [Documentação oficial](https://loopback.io/doc/en/lb4/)
+ * React-Admin:[Documentação oficial](https://marmelab.com/react-admin/)
 
 ### OTHERS
 
@@ -95,14 +86,14 @@ A [table](https://www.markdownguide.org/extended-syntax/#tables) can be useful t
 
 ### Frameworks and Libraries
 
+* Loopback 4
+* React-Admin
+* MySQL
+* Postman
 * Docker
-* Multipass
-* NodeJS
 * JQuery
-* Laravel
 * Bootstrap
-* ReactJS
-
+  
 ## Report
 ### Project Overview
 * Chapter 1: [Project presentation](doc/c1.md)
